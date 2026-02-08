@@ -5,8 +5,7 @@
 
 def somar(num):
     if num == 1: # caso básico
-        # return 1 -> retorna o caso básico
-        return num
+        return 1 #-> retorna o caso básico
     else: # caso recursivo
         return num + somar(num - 1)
 
